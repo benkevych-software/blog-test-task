@@ -1,0 +1,12 @@
+@import '@/app/assets/styles/colors';
+
+.card {
+  max-width: 320px;
+  width: 320px;
+
+  .button {
+    border: 1px solid $blue-dianne;
+    color: $blue-dianne;
+    font-weight: bold;
+  }
+}

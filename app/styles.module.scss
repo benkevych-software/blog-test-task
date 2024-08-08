@@ -1,0 +1,15 @@
+@import '@/app/assets/styles/colors.scss';
+
+.container {
+  padding: 4rem 0;
+
+  .button {
+    border: 1px solid $blue-dianne;
+    color: $blue-dianne;
+    font-weight: bold;
+  }
+}
+
+.image {
+  width: 100%;
+}

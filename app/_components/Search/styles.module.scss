@@ -1,0 +1,27 @@
+@import '@/app/assets/styles/colors';
+
+.container {
+  text-align: center;
+  margin-bottom: 60px;
+
+  .header {
+    font-size: 2.5rem;
+  }
+
+  .search {
+    &Input {
+      width: 600px;
+      margin-right: 10px;
+      text-align: left;
+    }
+
+    &Button {
+      width: 104px;
+      height: 40px;
+      border: 1px solid $blue-dianne;
+      color: $blue-dianne;
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
+  }
+}
